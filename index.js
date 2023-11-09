@@ -16,15 +16,7 @@
 */
 
 function sumAlphabetIndices(string) {
-  let total = 0
-  const alphabet = "abcdefghijklmnopqrstuvwxyz"
-  for (let i = 0; i < string.length; i++) {
-    const currentChar = string[i]
-    if (/[a-z]/.test(currentChar)) {
-      total += alphabet.indexOf(currentChar)
-    }
-  }
-  return total
+  // Enter Code Here...
 }
 
 module.exports = { sumAlphabetIndices }
